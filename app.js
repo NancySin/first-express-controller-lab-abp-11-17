@@ -5,13 +5,13 @@ var app = express()
 const SiteController = require('./controllers/SiteController.js')
 
 
-app.get("/", Sitecontroller.Index)
+app.get("/", SiteController.Index)
 
 module.exports = app
 
-app.get("/about", Sitecontroller.About)
+app.get("/about", SiteController.About)
 
-app.get("/contact", Sitecontroller.Contact)
+app.get("/contact", SiteController.Contact)
 
 
 module.exports = app
