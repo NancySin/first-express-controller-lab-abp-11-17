@@ -148,18 +148,3 @@ describe("SiteController.js", function(){
   })
 
 })
-const SiteController = {};
-
-SiteController.Index = Function(req, resp){
-  resp.render("site/index")
-}
-
- SiteController.About = function(req, resp){
-   resp.render ('site/about')
- }
-
- SiteController.Contact = function(req, resp){
-   resp.render('site/contact')
- }
-
- modules.exports = SiteController
