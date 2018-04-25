@@ -7,7 +7,7 @@ const SiteController = require('./controllers/SiteController.js')
 
 app.get("/", Sitecontroller.Index)
 
-module.exports = apps
+module.exports = app
 
 app.get("/about", Sitecontroller.About)
 
