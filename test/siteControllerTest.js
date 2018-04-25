@@ -148,7 +148,7 @@ describe("SiteController.js", function(){
   })
 
 })
-let SiteController = {};
+const SiteController = {};
 
 SiteController.Index = Function(req, resp){
   resp.render("site/index")
